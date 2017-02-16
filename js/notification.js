@@ -10,7 +10,7 @@ function notifyMe() {
   else if (Notification.permission === "granted") {
     // If it's okay let's create a notification
     var notification = new Notification("Hi there!", {
-      icon: './../logo/meetm.png',
+      icon: 'js/meetm.png',
       body: "You've been notified!",
     });
     notification.onclick = function () {
@@ -25,7 +25,7 @@ function notifyMe() {
       // If the user accepts, let's create a notification
       if (permission === "granted") {
         var notification = new Notification("Hi there!", {
-          icon: './../logo/meetm.png',
+          icon: 'js/meetm.png',
           body: "You've been notified!",
         });
         notification.onclick = function () {
